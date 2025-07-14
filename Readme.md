@@ -62,4 +62,4 @@ Sometimes, when closing gemini-cli, the WebSocket connection may continue runnin
 ### Inspired By:
 
 https://trustedsec.com/blog/teaching-a-new-dog-old-tricks-phishing-with-mcp
-https://x.com/\_xpn_/status/1902848551463399504
+https://x.com/_xpn_/status/1902848551463399504
