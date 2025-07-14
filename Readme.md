@@ -2,6 +2,8 @@
 
 A proof-of-concept MCP integration that controls a beacon by exposing AdaptixC2 APIs to gemini-cli
 
+<img width="3104" height="1846" alt="image" src="https://github.com/user-attachments/assets/51b8878b-98dd-409d-b7c5-efc38fb3bca0" />
+
 ## Installation
 
 The code uses uv as the package manager, follow the documentation to install it:
