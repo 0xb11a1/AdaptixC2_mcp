@@ -193,13 +193,7 @@ def send_command(id: str, data: str, cmdline: str):
     }
     # with open("/Users/theuser/Documents/ctf/RandomProjects/AdaptixC2_mcp/isolated/log.txt",'r') as f:
     #     f.write(str(burp0_json))
-    proxy = {
-        "http": "http://192.168.1.75:8080",
-        "https": "http://192.168.1.75:8080",
-    }
-    requests.post(
-        burp0_url, headers=burp0_headers, json=burp0_json, verify=False, proxies=proxy
-    )
+    requests.post(burp0_url, headers=burp0_headers, json=burp0_json, verify=False)
 
     while not is_command_output_complete:
         time.sleep(1)
